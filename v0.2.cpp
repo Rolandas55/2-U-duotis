@@ -174,7 +174,7 @@ int main(){
         }
     }
     if(v=='v'){
-    cout << "Pavarde" << setw(20) << "Vardas" << setw(20) << "Galutinis (Vid.)" << setw(20) << endl;
+    cout << left << setw(20) << "Pavarde" << setw(20) << "Vardas" << setw(20) << "Galutinis (Vid.)" << endl;
     cout << string(50, '-') << endl;
     for(i=0; i<C; i++){
     cout << left << setw(20) << m[i].pav << setw(20) << m[i].vard;
