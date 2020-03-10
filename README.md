@@ -1,3 +1,3 @@
 # 2-U-duotis
 
-Į programą v0.3 reikia įvesti mokinio vardą, pavardę, jo namų darbų rezultatus ir egzamino rezultatą arba nuskaityti nuo "kursiokai.txt" failo. Mokinio pažymius ir egzamino rezultatą gali sugeneruoti pati programa. Baigus skaičiavimus programa išveda pasirinktinai pažymių medianą arba vidurkį.
+Programa v0.4 iš jai duotų failų nuskaito duomenis apie mokinius. Jei failų neturite programa gali pati sugeneruoti atsitiktinius duomenis apie mokinius. Programa apskaičiuoja mokinių vidurkius pagal medianą arba vidurkį ir suskirsto juos į du failus "bičiuliai", mokiniai, kurių rezultatai žemiau 5 ir "galvočiai", mokiniai su aukštesniais rezultatais. Veiksmai atliekami su skirtingo dydžio failais ir darbo laikai su kiekvienu failu yra išvedami.
