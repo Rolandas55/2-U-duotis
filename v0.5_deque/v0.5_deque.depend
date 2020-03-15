@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1584307595 source:c:\users\home\documents\c++\objektinis\v0.5_deque\functions.cpp
+	"functions.h"
+	<fstream>
+	<cmath>
+	<iomanip>
+	<algorithm>
+
+1584307595 c:\users\home\documents\c++\objektinis\v0.5_deque\functions.h
+	<iostream>
+	<deque>
+
+1584307595 source:c:\users\home\documents\c++\objektinis\v0.5_deque\main.cpp
+	<iostream>
+	<iomanip>
+	<deque>
+	<bits/stdc++.h>
+	<fstream>
+	<math.h>
+	<bits/stdc++.h>
+	<algorithm>
+	<ctime>
+	<stdlib.h>
+	<time.h>
+	"functions.h"
+
