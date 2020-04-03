@@ -26,7 +26,7 @@ deque:
 10000000 eiluciu failas nuskaitytas per: 64.513
 10000000 eiluciu failas suskirstytas per: 101.295
 
-vector:
+list:
 1000 eiluciu failas nuskaitytas per: 0.012
 1000 eiluciu failas suskirstytas per: 0
 10000 eiluciu failas nuskaitytas per: 0.075
