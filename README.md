@@ -1,8 +1,8 @@
 # 2-U-duotis
 
-Programa v0.51 iš jai duotų failų nuskaito duomenis apie mokinius. Jei failų neturite programa gali pati sugeneruoti atsitiktinius duomenis apie mokinius. Programa apskaičiuoja mokinių vidurkius pagal medianą arba vidurkį ir suskirsto juos į du failus "bičiuliai", mokiniai, kurių rezultatai žemiau 5 ir "galvočiai", mokiniai su aukštesniais rezultatais. Veiksmai atliekami su skirtingo dydžio failais ir darbo laikai su kiekvienu failu yra išvedami. Laikas matuojamas kai nd skaičius lygus 10 ir galutinis rezultatas skaičiuojamas pagal vidurkį.
+Programa v1,0 iš jai duotų failų nuskaito duomenis apie mokinius. Jei failų neturite programa gali pati sugeneruoti atsitiktinius duomenis apie mokinius. Programa apskaičiuoja mokinių vidurkius pagal medianą arba vidurkį ir suskirsto juos į du failus "bičiuliai", mokiniai, kurių rezultatai žemiau 5 ir "galvočiai", mokiniai su aukštesniais rezultatais. Šie failai pagal vartotojo pasirinktimą gali būti saugomi dviejuose naujuose konteineriuose arba tik vienus mokinius perkeliant į naują. Veiksmai atliekami su skirtingo dydžio failais ir darbo laikai su kiekvienu failu yra išvedami. Laikas matuojamas kai nd skaičius lygus 10 ir galutinis rezultatas skaičiuojamas pagal vidurkį.
 
-vector:
+vector į du naujus konteinerius:
 1000 eiluciu failas nuskaitytas per: 0.021
 1000 eiluciu failas suskirstytas per: 0.001
 10000 eiluciu failas nuskaitytas per: 0.066
@@ -12,9 +12,19 @@ vector:
 1000000 eiluciu failas nuskaitytas per: 5.779
 1000000 eiluciu failas suskirstytas per: 0.705
 10000000 eiluciu failas nuskaitytas per: 58.744
-10000000 eiluciu failas suskirstytas per: 13.851 
+10000000 eiluciu failas suskirstytas per: 13.851
 
-deque:
+vector sename ir naujame konteineryje:
+1000 eiluciu failas nuskaitytas per: 0.008
+1000 eiluciu failas suskirstytas per: 0.017
+10000 eiluciu failas nuskaitytas per: 0.068
+10000 eiluciu failas suskirstytas per: 1.34
+100000 eiluciu failas nuskaitytas per: 0.6
+100000 eiluciu failas suskirstytas per: 130.86
+1000000 eiluciu failas nuskaitytas per: 5.633
+(toliau skaičiavimai truko labai ilgai)
+
+deque į du konteinerius:
 1000 eiluciu failas nuskaitytas per: 0.016
 1000 eiluciu failas suskirstytas per: 0.003
 10000 eiluciu failas nuskaitytas per: 0.065
@@ -26,18 +36,39 @@ deque:
 10000000 eiluciu failas nuskaitytas per: 64.513
 10000000 eiluciu failas suskirstytas per: 101.295
 
-list:
-1000 eiluciu failas nuskaitytas per: 0.012
-1000 eiluciu failas suskirstytas per: 0
-10000 eiluciu failas nuskaitytas per: 0.075
-10000 eiluciu failas suskirstytas per: 0.001
-100000 eiluciu failas nuskaitytas per: 0.66
-100000 eiluciu failas suskirstytas per: 0.006
-1000000 eiluciu failas nuskaitytas per: 6.249
-1000000 eiluciu failas suskirstytas per: 0.074
-10000000 eiluciu failas nuskaitytas per: 65.927
-10000000 eiluciu failas suskirstytas per: 3.795
-(List tipo konteineris skirstydamas nekopijuoja duomenu į kitus konteinerius.)
+deque sename ir naujame konteineryje:
+1000 eiluciu failas nuskaitytas per: 0.009
+1000 eiluciu failas suskirstytas per: 0.02
+10000 eiluciu failas nuskaitytas per: 0.069
+10000 eiluciu failas suskirstytas per: 1.535
+100000 eiluciu failas nuskaitytas per: 0.563
+100000 eiluciu failas suskirstytas per: 180.144
+1000000 eiluciu failas nuskaitytas per: 5.781
+(toliau skaičiavimai truko labai ilgai)
+
+list į du naujus konteinerius:
+1000 eiluciu failas nuskaitytas per: 0.01
+1000 eiluciu failas suskirstytas per: 0.003
+10000 eiluciu failas nuskaitytas per: 0.068
+10000 eiluciu failas suskirstytas per: 0.029
+100000 eiluciu failas nuskaitytas per: 0.606
+100000 eiluciu failas suskirstytas per: 0.247
+1000000 eiluciu failas nuskaitytas per: 6.649
+1000000 eiluciu failas suskirstytas per: 2.356
+10000000 eiluciu failas nuskaitytas per: 70.891
+10000000 eiluciu failas suskirstytas per: 116.54
+
+list naujame ir sename konteineryje:
+1000 eiluciu failas nuskaitytas per: 0.015
+1000 eiluciu failas suskirstytas per: 0.003
+10000 eiluciu failas nuskaitytas per: 0.092
+10000 eiluciu failas suskirstytas per: 0.019
+100000 eiluciu failas nuskaitytas per: 0.763
+100000 eiluciu failas suskirstytas per: 0.22
+1000000 eiluciu failas nuskaitytas per: 7.311
+1000000 eiluciu failas suskirstytas per: 2.124
+10000000 eiluciu failas nuskaitytas per: 70.89
+10000000 eiluciu failas suskirstytas per: 105.019
 
 testavimo kompiuterio specifikacijos:
 CPU - AMD Ryzen 5 2500U 
