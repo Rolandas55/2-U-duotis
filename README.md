@@ -134,6 +134,7 @@ list naujame ir sename konteineryje:
 10000000 eiluciu failas suskirstytas per: 105.019
 
 
+
 testavimo kompiuterio specifikacijos:
 
 CPU - AMD Ryzen 5 2500U 
